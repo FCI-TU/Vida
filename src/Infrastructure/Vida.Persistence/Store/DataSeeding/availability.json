@@ -1,0 +1,122 @@
+[
+  {
+    "DayOfWeek": 1,
+    "OpenTime": "08:00:00",
+    "CloseTime": "16:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 1,
+    "OpenTime": "09:00:00",
+    "CloseTime": "17:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 2,
+    "OpenTime": "09:00:00",
+    "CloseTime": "17:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 2,
+    "OpenTime": "10:00:00",
+    "CloseTime": "18:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 3,
+    "OpenTime": "08:30:00",
+    "CloseTime": "16:30:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 3,
+    "OpenTime": "10:00:00",
+    "CloseTime": "18:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 4,
+    "OpenTime": "09:00:00",
+    "CloseTime": "17:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 4,
+    "OpenTime": "11:00:00",
+    "CloseTime": "19:00:00",
+    "IsActive": false
+  },
+  {
+    "DayOfWeek": 5,
+    "OpenTime": "08:00:00",
+    "CloseTime": "16:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 5,
+    "OpenTime": "09:30:00",
+    "CloseTime": "17:30:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 6,
+    "OpenTime": "08:00:00",
+    "CloseTime": "16:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 6,
+    "OpenTime": "10:00:00",
+    "CloseTime": "14:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 7,
+    "OpenTime": "09:00:00",
+    "CloseTime": "13:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 7,
+    "OpenTime": "10:00:00",
+    "CloseTime": "14:00:00",
+    "IsActive": false
+  },
+  {
+    "DayOfWeek": 1,
+    "OpenTime": "07:00:00",
+    "CloseTime": "15:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 2,
+    "OpenTime": "08:00:00",
+    "CloseTime": "12:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 3,
+    "OpenTime": "09:00:00",
+    "CloseTime": "13:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 4,
+    "OpenTime": "10:00:00",
+    "CloseTime": "16:00:00",
+    "IsActive": true
+  },
+  {
+    "DayOfWeek": 5,
+    "OpenTime": "11:00:00",
+    "CloseTime": "17:00:00",
+    "IsActive": false
+  },
+  {
+    "DayOfWeek": 6,
+    "OpenTime": "09:00:00",
+    "CloseTime": "15:00:00",
+    "IsActive": true
+  }
+]

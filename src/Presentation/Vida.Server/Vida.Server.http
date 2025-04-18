@@ -1,0 +1,6 @@
+@Vida.Server_HostAddress = http://localhost:5206
+
+GET {{Vida.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
