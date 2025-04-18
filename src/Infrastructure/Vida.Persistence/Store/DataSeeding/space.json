@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Conference Room A",
+    "Description": "A spacious conference room with modern amenities.",
+    "Type": "Conference",
+    "ImageUrl": "https://example.com/images/conference_room_a.jpg",
+    "HourlyRate": 50.00,
+    "InstructorEmail": "c@gmail.com",
+    "Capacity": 20,
+    "RequiresApproval": true,
+    "IsActive": true
+  },
+  {
+    "Name": "Study Room B",
+    "Description": "A quiet room for small group study sessions.",
+    "Type": "Study",
+    "ImageUrl": "https://example.com/images/study_room_b.jpg",
+    "InstructorEmail": "d@gmail.com",
+    "HourlyRate": 25.00,
+    "Capacity": 6,
+    "RequiresApproval": false,
+    "IsActive": true
+  }
+]

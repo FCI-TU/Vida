@@ -1,0 +1,28 @@
+[
+  {
+    "Title": "Introduction to Programming",
+    "Description": "Learn the basics of programming with Python.",
+    "Type": "Online",
+    "AvailabilityId": 2,
+    "ImageUrl": "https://example.com/images/intro_programming.jpg",
+    "Price": 199.99,
+    "Duration": 10.5,
+    "InstructorEmail": "a@gmail.com",
+    "MaxParticipants": 30,
+    "Notes": "No prior experience required.",
+    "IsActive": true
+  },
+  {
+    "Title": "Advanced Data Science",
+    "Description": "Deep dive into data analysis and machine learning.",
+    "Type": "In-Person",
+    "AvailabilityId": 3,
+    "ImageUrl": "https://example.com/images/data_science.jpg",
+    "Price": 499.99,
+    "Duration": 20.0,
+    "InstructorEmail": "b@gmail.com",
+    "MaxParticipants": 25,
+    "Notes": "Requires basic knowledge of statistics.",
+    "IsActive": true
+  }
+]
