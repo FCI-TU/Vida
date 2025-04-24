@@ -8,7 +8,7 @@ public class StoreContextSeed
 	{
 		if (!storeContext.Availabilities.Any())
 		{
-			const string AvailabilityFilePath = "/College_Projects/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/availability.json";
+			const string AvailabilityFilePath = "/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/availability.json";
 
 			var AvailabilityData = await File.ReadAllTextAsync(AvailabilityFilePath);
 
@@ -25,7 +25,7 @@ public class StoreContextSeed
 
 		if (!storeContext.Spaces.Any())
 		{
-			const string spaceFilePath = "/College_Projects/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/space.json";
+			const string spaceFilePath = "/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/space.json";
 
 			var spaceData = await File.ReadAllTextAsync(spaceFilePath);
 
@@ -42,7 +42,7 @@ public class StoreContextSeed
 
 		if (!storeContext.Courses.Any())
 		{
-			const string CourseFilePath = "/College_Projects/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/course.json";
+			const string CourseFilePath = "/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/course.json";
 
 			var CourseData = await File.ReadAllTextAsync(CourseFilePath);
 
