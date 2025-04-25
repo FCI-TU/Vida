@@ -28,6 +28,7 @@ public class AuthService(UserManager<AppUser> userManager, SignInManager<AppUser
 
 		return Result.Success(new AppUserResponse
 		{
+			Id = user.Id,
 			DisplayName = user.DisplayName,
 			Email = model.Email,
 			Token = await tokenGenerator.CreateTokenAsync(user, userManager)
@@ -55,6 +56,7 @@ public class AuthService(UserManager<AppUser> userManager, SignInManager<AppUser
 
 		return Result.Success(new AppUserResponse
 		{
+			Id = user.Id,
 			DisplayName = user.DisplayName,
 			Email = model.Email,
 			Token = await tokenGenerator.CreateTokenAsync(user, userManager)
