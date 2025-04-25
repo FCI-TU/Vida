@@ -1,0 +1,29 @@
+[
+  {
+    "Title": "MBA Degree Program in Tanta",
+    "Content": "Vida Workstation has partnered with the Arab Academy for Science, Technology, and Maritime Transport to offer an MBA program in Tanta. This initiative aims to support youth development and provide easier access to advanced education.",
+    "ImageUrl": "https://vidaworkstation.com/assets/images/frontend/blog/648068641edc01686136932.jpg",
+    "Author": "Admin Team",
+    "PublishDate": "2024-04-15T10:00:00",
+    "IsActive": true,
+    "Category": "Education"
+  },
+  {
+    "Title": "Quality Time at Vida",
+    "Content": "At Vida, we emphasize the importance of quality time. Our environment is designed to help you focus, set goals, and work without distractions, ensuring that your time is both productive and meaningful.",
+    "ImageUrl": "https://vidaworkstation.com/assets/images/frontend/blog/6480632a58a271686135594.jpg",
+    "Author": "Admin Team",
+    "PublishDate": "2024-04-15T10:00:00",
+    "IsActive": true,
+    "Category": "Lifestyle"
+  },
+  {
+    "Title": "No One Except You",
+    "Content": "Experience privacy and focus at Vida. Choose from our Innovate, Create, or Grow spaces to work or study without interruptions, allowing you to unleash your creativity and expand your potential.",
+    "ImageUrl": "https://vidaworkstation.com/assets/images/frontend/blog/648060728e42a1686134898.jpg",
+    "Author": "Admin Team",
+    "PublishDate": "2024-04-15T10:00:00",
+    "IsActive": true,
+    "Category": "Productivity"
+  }
+]

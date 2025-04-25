@@ -22,11 +22,14 @@ public static class ApplicationServicesExtension
 
 		services.AddScoped(typeof(IAuthService), typeof(AuthService));
 
-		// --- Two Ways To Register AutoMapper
-		// - First (harder)
-		//builder.Services.AddAutoMapper(M => M.AddProfile(new MappingProfiles()));
-		// - Second (easier)
-		services.AddAutoMapper(typeof(MappingProfiles));
+        services.AddScoped(typeof(INewsService), typeof(NewsService));
+
+
+        // --- Two Ways To Register AutoMapper
+        // - First (harder)
+        //builder.Services.AddAutoMapper(M => M.AddProfile(new MappingProfiles()));
+        // - Second (easier)
+        services.AddAutoMapper(typeof(MappingProfiles));
 
 		return services;
 	}

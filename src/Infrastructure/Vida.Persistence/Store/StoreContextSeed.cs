@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Vida.Domain.Entities.News;
 using Vida.Domain.SpaceEntities;
 
 namespace Vida.Persistence.Store;
@@ -57,6 +58,23 @@ public class StoreContextSeed
 			}
 		}
 
-		await storeContext.SaveChangesAsync();
+        if (!storeContext.News.Any())
+        {
+            const string NewsFilePath = "/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/news.json";
+
+            var NewsData = await File.ReadAllTextAsync(NewsFilePath);
+
+            var NewsList = JsonSerializer.Deserialize<List<News>>(NewsData);
+
+            if (NewsList?.Count > 0)
+            {
+                foreach (var news in NewsList)
+                {
+                    storeContext.News.Add(news);
+                }
+            }
+        }
+
+        await storeContext.SaveChangesAsync();
 	}
 }
