@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Vida.Persistence.Store;
 
@@ -11,9 +12,11 @@ using Vida.Persistence.Store;
 namespace Vida.Persistence.Store.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    partial class StoreContextModelSnapshot : ModelSnapshot
+    [Migration("20250426191831_AddEventsAndEventRegistrationsTables")]
+    partial class AddEventsAndEventRegistrationsTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -363,7 +366,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("News", (string)null);
+                    b.ToTable("News");
                 });
 
             modelBuilder.Entity("Vida.Domain.SpaceEntities.Availability", b =>
@@ -388,7 +391,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Availabilities", (string)null);
+                    b.ToTable("Availabilities");
                 });
 
             modelBuilder.Entity("Vida.Domain.SpaceEntities.Course", b =>
@@ -439,7 +442,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasIndex("AvailabilityId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Vida.Domain.SpaceEntities.CourseReservation", b =>
@@ -463,7 +466,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("CourseSessions", (string)null);
+                    b.ToTable("CourseSessions");
                 });
 
             modelBuilder.Entity("Vida.Domain.SpaceEntities.Space", b =>
@@ -508,7 +511,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Spaces", (string)null);
+                    b.ToTable("Spaces");
                 });
 
             modelBuilder.Entity("Vida.Domain.SpaceEntities.SpaceReservation", b =>
@@ -537,7 +540,7 @@ namespace Vida.Persistence.Store.Migrations
 
                     b.HasIndex("SpaceId");
 
-                    b.ToTable("SpaceAvailabilities", (string)null);
+                    b.ToTable("SpaceAvailabilities");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

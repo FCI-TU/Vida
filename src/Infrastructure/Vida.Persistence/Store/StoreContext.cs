@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Vida.Domain.Entities.IdentityEntities;
 using Vida.Domain.SpaceEntities;
 using Vida.Domain.Entities.News;
+using Vida.Domain.Entities.EventEntities;
 
 namespace Vida.Persistence.Store;
 public class StoreContext(DbContextOptions<StoreContext> options): IdentityDbContext<AppUser>(options)
@@ -27,4 +28,7 @@ public class StoreContext(DbContextOptions<StoreContext> options): IdentityDbCon
 	public DbSet<CourseReservation> CourseSessions { get; set; }
 
     public DbSet<News> News { get; set; }
+
+    public DbSet<Event> Events { get; set; }
+    public DbSet<EventRegistration> EventRegistrations { get; set; }
 }
