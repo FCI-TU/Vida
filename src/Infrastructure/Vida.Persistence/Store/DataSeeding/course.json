@@ -2,7 +2,7 @@
   {
     "Title": "Digital Marketing",
     "Description": "Learn the fundamentals of digital marketing including marketing plans, strategies, consumer behavior, content types, and social media ads. Includes group activities and interactive training.",
-    "Type": "In-Person",
+    "Type": "Business",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64d6ba22ea4601691793954.jpeg",
     "Price": 300.0,
@@ -15,7 +15,7 @@
   {
     "Title": "Python",
     "Description": "Comprehensive Python course covering variables, data types, control flow, data structures, functions, file handling, modules, and OOP. Includes 16 projects, 4 main projects, and an online assessment.",
-    "Type": "In-Person",
+    "Type": "Coding",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64da0b365399e1692011318.jpeg",
     "Price": 400.0,
@@ -28,7 +28,7 @@
   {
     "Title": "Graphic Design",
     "Description": "Learn the principles of graphic design, including typography, color theory, and layout design.",
-    "Type": "In-Person",
+    "Type": "Graphic Courses",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64d62207c52071691755015.jpeg",
     "Price": 350.0,
@@ -41,7 +41,7 @@
   {
     "Title": "UX Design for Beginners",
     "Description": "An introductory course to User Experience (UX) design, covering user research, wireframing, prototyping, and usability testing.",
-    "Type": "In-Person",
+    "Type": "Graphic Courses",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/651a9429990ec1696240681.jpg",
     "Price": 350.0,
@@ -54,7 +54,7 @@
   {
     "Title": "Basics in Robotics",
     "Description": "Introduction to robotics, covering fundamental concepts and practical applications.",
-    "Type": "In-Person",
+    "Type": "Coding",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64d8cf6495d001691930468.jpeg",
     "Price": 500.0,
@@ -67,7 +67,7 @@
   {
     "Title": "Pharmaceutical Selling Skills",
     "Description": "Develop effective selling techniques tailored for the pharmaceutical industry.",
-    "Type": "In-Person",
+    "Type": "Soft Skills",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64d6285085ef11691756624.jpeg",
     "Price": 200.0,
@@ -80,7 +80,7 @@
   {
     "Title": "IELTS Preparation",
     "Description": "Prepare for the IELTS exam with comprehensive training in all four language skills.",
-    "Type": "In-Person",
+    "Type": "English Coruses",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64de74fc04d931692300540.jpg",
     "Price": 350.0,
@@ -93,7 +93,7 @@
   {
     "Title": "English Level 1",
     "Description": "Beginner-level English course focusing on basic grammar, vocabulary, and conversation skills.",
-    "Type": "In-Person",
+    "Type": "English Coruses",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64b1680b0d1a51689348107.jpg",
     "Price": 400.0,
@@ -106,7 +106,7 @@
   {
     "Title": "Project Management",
     "Description": "Learn the essentials of project management, including planning, execution, and monitoring.",
-    "Type": "In-Person",
+    "Type": "Business",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/64e245c16fa141692550593.jpg",
     "Price": 700.0,
@@ -119,7 +119,7 @@
   {
     "Title": "Photography",
     "Description": "Master the art of photography, covering camera settings, composition, and post-processing.",
-    "Type": "In-Person",
+    "Type": "Media",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/650e17c447e861695422404.jpeg",
     "Price": 400.0,
@@ -132,7 +132,7 @@
   {
     "Title": "الرواق الفلسفي",
     "Description": "A philosophical salon that delves into various philosophical topics and discussions.",
-    "Type": "In-Person",
+    "Type": "Coming Events",
     "AvailabilityId": 1,
     "ImageUrl": "https://www.vidaworkstation.com/assets/doctor/images/profile/6533f053b42aa1697902675.jpg",
     "Price": 380.0,

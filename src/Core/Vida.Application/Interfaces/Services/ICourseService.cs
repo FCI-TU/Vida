@@ -7,4 +7,8 @@ public interface ICourseService
 {
 	Task<Result<IReadOnlyList<Course>>> GetCoursesAsync();
 	Task<Result<Course>> CourseReservationAsync(CourseReservationRequest model);
+
+    Task<Result<IReadOnlyList<Course>>> GetCoursesByCategoryAsync(string category);
+
+    Task<Result<IReadOnlyList<string>>> GetAvailableCategoriesAsync();
 }

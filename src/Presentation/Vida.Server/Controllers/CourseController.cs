@@ -21,4 +21,20 @@ public class CourseController(ICourseService courseService) : BaseController
 
 		return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
 	}
+
+    [HttpGet("category/{category}")]
+    public async Task<ActionResult> GetCoursesByCategory(string category)
+    {
+        var result = await courseService.GetCoursesByCategoryAsync(category);
+
+        return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
+    }
+
+    [HttpGet("categories")]
+    public async Task<ActionResult> GetCategories()
+    {
+        var result = await courseService.GetAvailableCategoriesAsync();
+
+        return result.IsSuccess ? Ok(result.Value) : result.ToProblem();
+    }
 }

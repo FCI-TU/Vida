@@ -36,4 +36,38 @@ public class CourseService(IUnitOfWork unitOfWork, IMapper mapper) : ICourseServ
 
 		return Result.Success(course);
 	}
+
+    public async Task<Result<IReadOnlyList<Course>>> GetCoursesByCategoryAsync(string category)
+    {
+        var spec = new BaseSpecifications<Course>
+        {
+            WhereCriteria = x => x.Type.ToLower() == category.ToLower() && x.IsActive,
+            IncludesCriteria = [x => x.Availability]
+        };
+
+        var courses = await unitOfWork.Repository<Course>().GetAllAsync(spec);
+
+        if (courses.Count == 0)
+            return Result.Success<IReadOnlyList<Course>>(courses);
+
+        return Result.Success(courses);
+    }
+
+    public async Task<Result<IReadOnlyList<string>>> GetAvailableCategoriesAsync()
+    {
+        var spec = new BaseSpecifications<Course>
+        {
+            WhereCriteria = x => x.IsActive
+        };
+
+        var courses = await unitOfWork.Repository<Course>().GetAllAsync(spec);
+
+        var categories = courses
+            .Select(c => c.Type)
+            .Distinct()
+            .OrderBy(c => c)
+            .ToList();
+
+        return Result.Success<IReadOnlyList<string>>(categories);
+    }
 }
