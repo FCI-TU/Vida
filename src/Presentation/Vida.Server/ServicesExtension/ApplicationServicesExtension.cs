@@ -24,6 +24,8 @@ public static class ApplicationServicesExtension
 
         services.AddScoped(typeof(INewsService), typeof(NewsService));
 
+        services.AddScoped(typeof(IEventService), typeof(EventService));
+
 
         // --- Two Ways To Register AutoMapper
         // - First (harder)

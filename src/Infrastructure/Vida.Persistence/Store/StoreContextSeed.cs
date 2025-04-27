@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Vida.Domain.Entities.EventEntities;
 using Vida.Domain.Entities.News;
 using Vida.Domain.SpaceEntities;
 
@@ -71,6 +72,23 @@ public class StoreContextSeed
                 foreach (var news in NewsList)
                 {
                     storeContext.News.Add(news);
+                }
+            }
+        }
+
+        if (!storeContext.Events.Any())
+        {
+            const string EventFilePath = "/Vida/src/Infrastructure/Vida.Persistence/Store/DataSeeding/events.json";
+
+            var EventData = await File.ReadAllTextAsync(EventFilePath);
+
+            var Events = JsonSerializer.Deserialize<List<Event>>(EventData);
+
+            if (Events?.Count > 0)
+            {
+                foreach (var evt in Events)
+                {
+                    storeContext.Events.Add(evt);
                 }
             }
         }

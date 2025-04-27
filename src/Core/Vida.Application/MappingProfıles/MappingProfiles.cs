@@ -20,11 +20,10 @@ public class MappingProfiles: Profile
 
         CreateMap<News, NewsResponse>();
 
-		CreateMap<Event, EventResponse>();
 
-		CreateMap<EventRegistration, EventRegistrationResponse>();
-
-		CreateMap<EventRegistrationRequest, EventRegistration>();
+        CreateMap<Event, EventResponse>();
+        CreateMap<EventRegistration, EventRegistrationResponse>()
+            .ForMember(dest => dest.EventTitle, opt => opt.MapFrom(src => src.Event.Title));
 
     }
 }

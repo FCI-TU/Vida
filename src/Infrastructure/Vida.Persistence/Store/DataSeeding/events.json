@@ -1,0 +1,54 @@
+[
+  {
+    "Title": "AI and Machine Learning Workshop",
+    "Description": "Explore the fundamentals of AI and machine learning with practical hands-on sessions. Ideal for beginners and tech enthusiasts.",
+    "Location": "Innovation Hub",
+    "EventDate": "2025-06-10",
+    "EventTime": "14:00:00",
+    "Capacity": 25,
+    "OrganizerEmail": "ai@vidaworkstation.com",
+    "ImageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "Price": 120.00,
+    "IsActive": true,
+    "Category": "Technology"
+  },
+  {
+    "Title": "Sustainability and Green Innovation Seminar",
+    "Description": "Join leaders in sustainable development and green technology to discuss innovative solutions for a better planet.",
+    "Location": "Green Hall",
+    "EventDate": "2025-06-15",
+    "EventTime": "09:30:00",
+    "Capacity": 50,
+    "OrganizerEmail": "sustainability@vidaworkstation.com",
+    "ImageUrl": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Price": 50.00,
+    "IsActive": true,
+    "Category": "Sustainability"
+  },
+  {
+    "Title": "Creative Entrepreneurship Bootcamp",
+    "Description": "Empowering creative entrepreneurs with tools, techniques, and business models to turn their passions into successful ventures.",
+    "Location": "Startup Studio",
+    "EventDate": "2025-07-01",
+    "EventTime": "11:00:00",
+    "Capacity": 40,
+    "OrganizerEmail": "entrepreneurship@vidaworkstation.com",
+    "ImageUrl": "https://images.pexels.com/photos/3782235/pexels-photo-3782235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Price": 95.00,
+    "IsActive": true,
+    "Category": "Business"
+  },
+  {
+    "Title": "Art and Innovation Expo",
+    "Description": "Celebrate the fusion of art and technology with installations, live demonstrations, and workshops from creative minds.",
+    "Location": "Exhibition Center",
+    "EventDate": "2025-07-10",
+    "EventTime": "16:00:00",
+    "Capacity": 100,
+    "OrganizerEmail": "art@vidaworkstation.com",
+    "ImageUrl": "https://images.pexels.com/photos/542556/pexels-photo-542556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Price": 30.00,
+    "IsActive": true,
+    "Category": "Arts"
+  }
+]
